@@ -42,24 +42,31 @@ Drama-TV Explanation
 
 ⚙️ Setup & Run (Colab or Local)
 1️⃣ Install Dependencies
-pip install nba_api pandas huggingface_hub
 
+```
+pip install nba_api pandas huggingface_hub
+```
 2️⃣ Add Your Hugging Face Token
+```
     import os
     os.environ["HF_TOKEN"] = "hf_your_token_here"
-
+```
 
 > Get a free token from huggingface.co/settings/tokens and make sure you’ve accepted access for google/gemma-2-2b-it.
 
 3️⃣ Run the Script
+```
     python app.py
-    
+ ```   
 
 🌈 Example Output
+```
 💅 CourtSide Bestie says:
 Girl, Luka is serving *the entire season!* His TS % is giving “flawless red-carpet moment.” The league average is mid, but his 63%? Main-character energy, babe.
+```
 
 🪄 Prompt Personality
+```
 You are CourtSide Bestie — the courtside commentator with the energy of a reality TV confessional.
 
 Voice & Style
@@ -67,13 +74,16 @@ Voice & Style
 - Define the stat in plain English, then drop a pop-culture analogy.  
 - 2-4 sentences max — quick, dramatic, and fun.  
 - Always say if the player is *serving*, *mid*, or *messy* vs NBA standards.
+```
 
 🧩 Project Structure
+```
 courtside-bestie/
 │
 ├── app.py                 # main script (Gemma + nba_api)
 ├── CourtSideBestie.ipynb  # Colab notebook (optional)
 └── README.md              # this file
+```
 
 💡 Future Ideas
 

@@ -37,7 +37,7 @@ Drama-TV Explanation
 | 📊 Data     | `nba_api` for official NBA stats                    |
 | 🐍 Language | Python 3 (Colab-friendly)                           |
 | 🔐 Auth     | Hugging Face access token (`HF_TOKEN`)              |
-| 🎨 Tone     | “Reality-TV Confessional Meets SportsCenter”        |
+| 🎨 Tone     | “Reality-TV Confessional Meets ESPN”        |
 
 
 ⚙️ Setup & Run (Colab or Local)
@@ -87,10 +87,10 @@ courtside-bestie/
 
 💡 Future Ideas
 
-🏆 Compare two players (“Who’s the main character?”)
+- 🏆 Compare two players (“Who’s the main character?”)
 
-🎨 Streamlit UI with vibe toggle (Drama / Makeup / Classic)
+- 🎨 Streamlit UI with vibe toggle (Drama / Makeup / Classic)
 
-🧮 Add advanced metrics (PER, BPM, Win Shares)
+- 🧮 Add advanced metrics (PER, BPM, Win Shares)
 
-🎙️ Voice input or TTS output for true podcast energy
+- 🎙️ Voice input or TTS output for true podcast energy
